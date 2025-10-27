@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ocean Professional Theme Defaults */
+:root {
+  --color-primary: #2563EB; /* blue-600 */
+  --color-secondary: #F59E0B; /* amber-500 */
+  --color-error: #EF4444; /* red-500 */
+  --color-text: #111827; /* gray-900 */
+  --color-bg: #f9fafb; /* gray-50 */
+  --color-surface: #ffffff;
+}
+
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-[#f9fafb] text-[#111827];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
